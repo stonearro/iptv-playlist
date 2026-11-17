@@ -1,0 +1,49 @@
+name: 更新 IPTV 播放列表
+
+on:
+  schedule:
+    # 每天 UTC 20:00（北京时间次日 04:00）自动更新
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-playlist-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 生成并实测播放列表
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/build_playlist.py --output-dir output --workers 48
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "播放列表无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 自动更新播放列表 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
