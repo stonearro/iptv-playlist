@@ -6,13 +6,41 @@
 
 **一个链接放进播放器，就能看到频道列表**，不需要逐个添加电视台地址。
 
-## 播放列表地址
+## 国内可用地址（推荐）
+
+以下地址均已实测能返回完整列表，按速度排序。**任意一个都可以直接放进播放器**；某个打不开时换下一个。
+
+**最快单线路地址**
+
+```text
+https://ghproxy.imciel.com/https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u
+```
+
+| 线路 | 单线路地址 | 实测速度 |
+| --- | --- | --- |
+| GitHub 加速 ① | `https://ghproxy.imciel.com/https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u` | 约 1.8 秒 |
+| GitHub 加速 ② | `https://gh-proxy.com/https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u` | 约 2.1 秒 |
+| GitHub 加速 ③ | `https://gh-proxy.org/https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u` | 约 2.6 秒 |
+| jsDelivr 国内 CDN | `https://quantil.jsdelivr.net/gh/stonearro/iptv-playlist@main/output/all.m3u` | 约 3.1 秒 |
+| jsDelivr 全球 | `https://cdn.jsdelivr.net/gh/stonearro/iptv-playlist@main/output/all.m3u` | 约 3.6 秒 |
+
+**多线路版**：把上面地址中的 `all.m3u` 换成 `multi.m3u`。
+
+**GitHub 原始地址（部分网络可能打不开，仅作备用）**
+
+```text
+https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u
+```
+
+> 加速站点是第三方公共服务，可能限速、缓存或临时失效；如果全部打不开，可稍后重试或使用 GitHub 原始地址。
+
+## 全部频道与分类（GitHub 原始地址）
 
 推荐先使用「单线路版」；如果某个频道打不开，再换「多线路版」。
 
 | 版本 | 地址 |
 | --- | --- |
-| 全部频道 · 单线路（推荐） | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u` |
+| 全部频道 · 单线路 | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u` |
 | 全部频道 · 多线路（最多 3 条容错） | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/multi.m3u` |
 | 央视 | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/cctv.m3u` |
 | 卫视 | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/satellite.m3u` |
@@ -24,22 +52,6 @@
 | 纪录 | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/documentary.m3u` |
 | 音乐 | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/music.m3u` |
 | 其他 | `https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/other.m3u` |
-
-### 国内加速地址（raw 打不开时使用）
-
-jsDelivr：
-
-```text
-https://cdn.jsdelivr.net/gh/stonearro/iptv-playlist@main/output/all.m3u
-```
-
-gh-proxy：
-
-```text
-https://gh-proxy.com/https://raw.githubusercontent.com/stonearro/iptv-playlist/main/output/all.m3u
-```
-
-> 加速站点为第三方公共服务，稳定性不受本仓库控制；失效时请换回 raw 地址。
 
 ## 使用方法
 
