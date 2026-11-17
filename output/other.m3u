@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-17 05:21 UTC
+# 更新时间: 2026-11-17 05:28 UTC
 
 #EXTINF:-1 tvg-id="BreadTV面包台" tvg-name="Bread TV面包台" group-title="其他",Bread TV面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
@@ -12,6 +12,10 @@ https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
 https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 #EXTINF:-1 tvg-id="上虞经济文化" tvg-name="上虞经济文化" group-title="其他",上虞经济文化
 https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
+#EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" group-title="其他" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png",兵器科技
+https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-id="农安新闻综合" tvg-name="农安新闻综合" group-title="其他",农安新闻综合
+https://stream2.jlntv.cn/naxw/sd/live.m3u8
 #EXTINF:-1 tvg-id="前郭综合" tvg-name="前郭综合" group-title="其他",前郭综合
 https://stream2.jlntv.cn/qg/sd/live.m3u8
 #EXTINF:-1 tvg-id="南国都市" tvg-name="南国都市" group-title="其他" tvg-logo="https://tb.zbds.top/logo/南国都市.png",南国都市
@@ -32,8 +36,6 @@ https://stream2.jlntv.cn/sytv/sd/live.m3u8
 http://222.179.155.21:1935/ch1.m3u8
 #EXTINF:-1 tvg-id="江津经济生活" tvg-name="江津经济生活" group-title="其他",江津经济生活
 http://222.179.155.21:1935/ch0.m3u8
-#EXTINF:-1 tvg-id="湘潭新闻综合" tvg-name="湘潭新闻综合" group-title="其他",湘潭新闻综合
-http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="白城新闻综合" tvg-name="白城新闻综合" group-title="其他",白城新闻综合
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-id="白山新闻综合" tvg-name="白山新闻综合" group-title="其他",白山新闻综合
@@ -42,6 +44,10 @@ https://stream2.jlntv.cn/baishan1/sd/live.m3u8
 http://183.64.181.25:40023/rongchang01.m3u8
 #EXTINF:-1 tvg-id="辽源新闻综合" tvg-name="辽源新闻综合" group-title="其他",辽源新闻综合
 https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
+#EXTINF:-1 tvg-id="通化新闻" tvg-name="通化新闻" group-title="其他",通化新闻
+https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" group-title="其他" tvg-logo="https://live.fanmingming.cn/tv/重温经典.png",重温经典
+http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 tvg-id="长春综合" tvg-name="长春综合" group-title="其他",长春综合
 https://stream2.jlntv.cn/jlcc/sd/live.m3u8
 #EXTINF:-1 tvg-id="集安综合" tvg-name="集安综合" group-title="其他",集安综合

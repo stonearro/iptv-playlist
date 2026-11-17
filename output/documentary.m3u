@@ -1,10 +1,12 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-17 05:21 UTC
+# 更新时间: 2026-11-17 05:28 UTC
 
 #EXTINF:-1 tvg-id="RT07" tvg-name="RT Doc-Русский(俄语纪录)" group-title="纪录" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png",RT Doc-Русский(俄语纪录)
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 #EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" group-title="纪录" tvg-logo="https://www.xn--rgv465a.top/tvlogo/之江纪录.png",之江纪录
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-id="兵团五师双河影" tvg-name="兵团五师双河影" group-title="纪录" tvg-logo="https://tb.zbds.top/logo/兵团五师双河影.png",兵团五师双河影
+https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
 #EXTINF:-1 tvg-id="RT06" tvg-name="英语纪录" group-title="纪录" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png",英语纪录
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
