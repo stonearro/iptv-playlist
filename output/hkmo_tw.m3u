@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-18 02:12 UTC
+# 更新时间: 2026-11-19 01:47 UTC
 
 #EXTINF:-1 tvg-id="GOODTVCH1综合台" tvg-name="GOOD TV CH1 综合台" group-title="港澳台",GOOD TV CH1 综合台
 https://live.streamingfast.net/osmflivech1.m3u8
@@ -11,7 +11,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 #EXTINF:-1 tvg-id="TVBPlus" tvg-name="TVB Plus" group-title="港澳台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB Plus.png",TVB Plus
 http://r.jdshipin.com/Nr5jq
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/TVBS亚洲.png",TVBS亚洲
-http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
+http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" group-title="港澳台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png",TVBS新闻台
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="TVB娱乐新闻台" tvg-name="TVB娱乐新闻台" group-title="港澳台" tvg-logo="https://live.fanmingming.cn/tv/TVB娱乐新闻台.png",TVB娱乐新闻台
@@ -40,11 +40,12 @@ http://r.jdshipin.com/thuYX
 http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="唯心电视" tvg-name="唯心电视" group-title="港澳台",唯心电视
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" group-title="港澳台" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png",无线新闻台
-http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无线新闻.png",无线新闻台
+https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
 #EXTINF:-1 tvg-id="无线星河" tvg-name="无线星河" group-title="港澳台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB星河.png",无线星河
 http://r.jdshipin.com/Voac4
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" group-title="港澳台" tvg-logo="https://live.fanmingming.cn/tv/明珠台.png",明珠台
+#EXTVLCOPT:http-referrer=http://php.jdshipin.com/
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 tvg-id="港台电视31" tvg-name="港台电视31" group-title="港澳台" tvg-logo="https://live.fanmingming.cn/tv/RTHK31.png",港台电视31
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
@@ -70,6 +71,3 @@ http://r.jdshipin.com/GeWKr
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
 #EXTINF:-1 tvg-id="耀才财经" tvg-name="耀才财经" group-title="港澳台" tvg-logo="https://live.fanmingming.cn/tv/耀才财经.png",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
-#EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" group-title="港澳台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/香港卫视.png",香港卫视
-#EXTVLCOPT:http-referrer=http://webcast.hkstv.tv/
-http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
