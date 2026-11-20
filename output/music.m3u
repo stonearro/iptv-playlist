@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-19 01:47 UTC
+# 更新时间: 2026-11-20 01:43 UTC
 
 #EXTINF:-1 tvg-id="AMC音乐" tvg-name="AMC音乐" group-title="音乐" tvg-logo="https://tb.zbds.top/logo/AMC音乐.png",AMC音乐
 https://AMChls.wns.live/hls/stream.m3u8
