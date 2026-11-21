@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-20 01:43 UTC
+# 更新时间: 2026-11-21 01:09 UTC
 
 #EXTINF:-1 tvg-id="RT07" tvg-name="RT Doc-Русский(俄语纪录)" group-title="纪录" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png",RT Doc-Русский(俄语纪录)
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
