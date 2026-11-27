@@ -1,13 +1,19 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-26 02:43 UTC
+# 更新时间: 2026-11-27 02:43 UTC
 
 #EXTINF:-1 tvg-id="BreadTV面包台" tvg-name="Bread TV面包台" group-title="其他",Bread TV面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-id="VOA美国之音" tvg-name="VOA美国之音" group-title="其他",VOA美国之音
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+#EXTINF:-1 tvg-id="上虞1新闻综合" tvg-name="上虞1新闻综合" group-title="其他",上虞1新闻综合
+https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+#EXTINF:-1 tvg-id="上虞3新商都" tvg-name="上虞3新商都" group-title="其他",上虞3新商都
+https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
+#EXTINF:-1 tvg-id="上虞经济文化" tvg-name="上虞经济文化" group-title="其他",上虞经济文化
+https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" group-title="其他" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png",兵器科技
-https://live.264788.xyz/channel/bingqikeji?streamid=530cb4e58bbc48b7fc26f5e0a2e47966&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="农安新闻综合" tvg-name="农安新闻综合" group-title="其他",农安新闻综合
 https://stream2.jlntv.cn/naxw/sd/live.m3u8
 #EXTINF:-1 tvg-id="前郭综合" tvg-name="前郭综合" group-title="其他",前郭综合
@@ -22,6 +28,8 @@ https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 https://stream2.jlntv.cn/jlyb/sd/live.m3u8
 #EXTINF:-1 tvg-id="文化精品" tvg-name="文化精品" group-title="其他" tvg-logo="https://www.xn--rgv465a.top/tvlogo/文化精品.png",文化精品
 https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-id="新昌休闲影视" tvg-name="新昌休闲影视" group-title="其他",新昌休闲影视
+https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 tvg-id="松原新闻综合" tvg-name="松原新闻综合" group-title="其他",松原新闻综合
 https://stream2.jlntv.cn/sytv/sd/live.m3u8
 #EXTINF:-1 tvg-id="江津新闻综合" tvg-name="江津新闻综合" group-title="其他",江津新闻综合
@@ -45,4 +53,4 @@ https://stream2.jlntv.cn/jlcc/sd/live.m3u8
 #EXTINF:-1 tvg-id="集安综合" tvg-name="集安综合" group-title="其他",集安综合
 https://stream2.jlntv.cn/ja/sd/live.m3u8
 #EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" group-title="其他" tvg-logo="https://www.xn--rgv465a.top/tvlogo/风云音乐.png",风云音乐
-https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk

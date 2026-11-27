@@ -1,13 +1,13 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-26 02:43 UTC
+# 更新时间: 2026-11-27 02:43 UTC
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1 综合" group-title="央视" tvg-logo="https://i.imgur.com/TpA3cUl.png",CCTV-1 综合
 http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV-3 综艺" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-3.png",CCTV-3 综艺
+http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 中文国际" group-title="央视",CCTV-4 中文国际
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cctv_4/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+ 体育赛事" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png",CCTV-5+ 体育赛事
-http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV-6 电影" group-title="央视" tvg-logo="https://live.fanmingming.cn/tv/CCTV6.png",CCTV-6 电影
 http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV-9 纪录" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-9.png",CCTV-9 纪录
@@ -22,11 +22,11 @@ http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV-17 农业农村" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png",CCTV-17 农业农村
 https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png",CGTN
-http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN 法语" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CGTN法语.png",CGTN 法语
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN 纪录" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CGTN纪录.png",CGTN 纪录
-https://0472.org/hls/cgtnd.m3u8
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN 纪录" group-title="央视" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png",CGTN 纪录
+https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 #EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN 西语" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CGTN西语.png",CGTN 西语
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN 阿语" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CGTN阿语.png",CGTN 阿语
