@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 # 由 GitHub Actions 自动生成, 请勿手动编辑
-# 更新时间: 2026-11-27 02:43 UTC
+# 更新时间: 2026-11-28 02:32 UTC
 
 #EXTINF:-1 tvg-id="BreadTV面包台" tvg-name="Bread TV面包台" group-title="其他",Bread TV面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
@@ -53,4 +53,4 @@ https://stream2.jlntv.cn/jlcc/sd/live.m3u8
 #EXTINF:-1 tvg-id="集安综合" tvg-name="集安综合" group-title="其他",集安综合
 https://stream2.jlntv.cn/ja/sd/live.m3u8
 #EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" group-title="其他" tvg-logo="https://www.xn--rgv465a.top/tvlogo/风云音乐.png",风云音乐
-https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
